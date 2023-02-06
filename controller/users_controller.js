@@ -1,6 +1,8 @@
 module.exports = {
     profile : (req, resp) =>{
-        resp.end(`<h1>Users Profile Section </h1>`);
+        
+        
+        return resp.render('userProfile');
     },
 
     post : (req, resp) =>{
